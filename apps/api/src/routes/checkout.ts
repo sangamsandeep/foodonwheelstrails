@@ -112,6 +112,7 @@ router.post('/', async (req, res) => {
           currency: 'usd',
           product_data: {
             name: 'Tip',
+            description: 'Gratuity for service',
           },
           unit_amount: tipCents,
         },
